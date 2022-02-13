@@ -15,7 +15,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace DiceyAzFunc
 {
-    public static class HaveSomeData
+    public class HaveSomeData
     {
         [FunctionName("HaveSomeData")]
         [OpenApiOperation(operationId: "Run", tags: new[] { "OpenApi" }, Description = "Simply returns an object with some date params. Swagger UI will reveal extensive usage of OpenApi extensions to document this function. (OpenApiOperation > Description)")]
